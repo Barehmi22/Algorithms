@@ -1,0 +1,24 @@
+ALGORITHM sentence_length
+VAR
+// three counters
+length = 0
+wordCount = 0
+vowelCount = 0
+BEGIN
+// Give me sentence
+sentence = ()
+for character in sentence:
+    length = length + 1
+
+    // if  a vowel
+    if character is a vowel 'aeiouAEIOU':
+        vowelCount = vowelCount + 1
+
+    // if is a space
+    if eslse character is a space:
+        wordCount = wordCount + 1
+    end if
+   read(length)
+   read(wordcount)
+   read(vowelcount)
+End
